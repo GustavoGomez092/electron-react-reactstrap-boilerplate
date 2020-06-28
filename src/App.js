@@ -1,7 +1,6 @@
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'reactstrap'
+import CouponMaker from './Components/CouponMaker'
 
-ReactDOM.render(<Button>hello world from React! </Button>, document.getElementById('root'))
+ReactDOM.render(<CouponMaker />, document.getElementById('root'))
